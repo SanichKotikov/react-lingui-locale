@@ -1,9 +1,16 @@
-import React from 'react';
+import {memo} from 'react';
+import {Languages} from './Languages';
+import {Examples} from './Examples';
 
 function App() {
   return (
-    <div>app</div>
+    <div>
+      <div>
+        <Languages />
+      </div>
+      <Examples />
+    </div>
   );
 }
 
-export default App;
+export default memo(App);

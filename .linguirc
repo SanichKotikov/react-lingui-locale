@@ -1,0 +1,13 @@
+{
+  "locales": ["en", "ru"],
+  "sourceLocale": "en",
+  "catalogs": [{
+    "path": "src/locales/messages/{locale}",
+    "include": ["src"]
+  }],
+  "format": "minimal",
+  "compileNamespace": "ts",
+  "fallbackLocales": {
+    "default": "en"
+  }
+}
