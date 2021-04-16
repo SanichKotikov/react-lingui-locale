@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "locales": "lingui extract --clean && lingui compile"
+    "locales": "lingui extract --clean --overwrite --verbose && lingui compile --verbose"
   },
   "eslintConfig": {
     "extends": [
