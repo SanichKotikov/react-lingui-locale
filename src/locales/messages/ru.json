@@ -4,5 +4,9 @@
   "function_text": "",
   "hello": "Привет {0}!",
   "last_login": "Последний вход {0}.",
+  "raw_hello": "",
+  "raw_last_login": "",
+  "raw_plural": "",
+  "raw_with_link": "",
   "with_link": "Сообщение со <0>ссылкой</0> в середине."
 }

@@ -6,14 +6,12 @@ export const LOCALES = {
   ru: "Русский",
 };
 
-export const DEFAULT_LOCALE = "en";
-
 i18n.loadLocaleData({
   en: { plurals: en },
   ru: { plurals: ru },
 });
 
-export function dynamicActivate(locale: string = DEFAULT_LOCALE) {
+export function dynamicActivate(locale: string) {
   import(`./messages/${locale}.ts`).then(({ messages }) => {
     i18n.load(locale, messages);
     i18n.activate(locale);

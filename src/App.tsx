@@ -1,6 +1,7 @@
 import {memo} from 'react';
 import {Languages} from './Languages';
 import {Examples} from './Examples';
+import {RawExamples} from './RawExamples';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Languages />
       </div>
       <Examples />
+      <RawExamples />
     </div>
   );
 }

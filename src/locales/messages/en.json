@@ -4,5 +4,9 @@
   "function_text": "Image caption",
   "hello": "Hello {0}!",
   "last_login": "Last login on {0}.",
+  "raw_hello": "Hello {name}!",
+  "raw_last_login": "Last login on {date}.",
+  "raw_plural": "You have {count, plural, one {# message} other {# messages}}.",
+  "raw_with_link": "Some message with <0>link</0> in the middle.",
   "with_link": "Some message with <0>link</0> in the middle."
 }
