@@ -23,7 +23,7 @@ export const RawExamples = memo(function RawExamples() {
           <Trans
             id="raw_plural"
             message="You have {count, plural, one {# message} other {# messages}}."
-            values={{count: 1400}}
+            values={{count: 2}}
           />
         </li>
         <li>
